@@ -48,7 +48,7 @@ function App() {
       </div>
       <div id='footer'>
         <div>Created by Matthew Hardman </div>
-        <FaGithub />
+        <a href = 'https://github.com/MatthewHardman/react-weather-app'><FaGithub /></a>
       </div>
     </div>
   );
