@@ -1,58 +1,57 @@
-.container{
-    height: 98vh;
-    width: 98w;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 3fr 2fr 0.5fr; 
-    gap: 15px;
-    grid-template-areas:
-        "header header header"
-        "weather-card-1 weather-card-2 weather-card-3"
-        "weather-card-1 weather-card-2 weather-card-3"  /*plans to replace with a forecast ribbon*/
-        "footer footer footer";
+.container {
+  height: 98vh;
+  width: 98w;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 3fr 2fr 0.5fr;
+  gap: 15px;
+  grid-template-areas:
+    "header header header"
+    "weather-card-1 weather-card-2 weather-card-3"
+    "weather-card-1 weather-card-2 weather-card-3" /*plans to replace with a forecast ribbon*/
+    "footer footer footer";
 }
 
-#header{
-    grid-area: header;
-    color: #012A36;
-    font-size: 4rem;
-    text-align: center;
-    font-weight: bold;
-    font-family: Helvetica, Arial, sans-serif;
+#header {
+  grid-area: header;
+  color: #012a36;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
-.weather-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    color: #012A36;
-    font-size: 2rem;
-    font-weight: bold;
-    font-family: Helvetica, Arial, sans-serif;
-    border: 3px solid #012A36;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px 0px #012A36;
-
+.weather-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  color: #012a36;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  border: 3px solid #012a36;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 0px #012a36;
 }
 
-#weather-card-1{
-    grid-area: weather-card-1;
+#weather-card-1 {
+  grid-area: weather-card-1;
 }
 
-#weather-card-2{
-    grid-area: weather-card-2;
+#weather-card-2 {
+  grid-area: weather-card-2;
 }
 
-#weather-card-3{
-    grid-area: weather-card-3;
+#weather-card-3 {
+  grid-area: weather-card-3;
 }
 
-#footer{
-    grid-area: footer;
-    color: #012A36;
-    font-size: 1rem;
-    text-align: center;
-    font-weight: bold;
-    font-family: Helvetica, Arial, sans-serif;
+#footer {
+  grid-area: footer;
+  color: #012a36;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
 }
